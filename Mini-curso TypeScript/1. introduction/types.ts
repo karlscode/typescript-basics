@@ -49,3 +49,11 @@ let cart: object
 cart = {
   key: "fi"
 }
+
+// Type Inference
+let message2 = "New message"
+message2 = "new stirng"
+
+window.addEventListener("click", (e) => {
+  console.log(e.target)
+})
